@@ -1,0 +1,8 @@
+# Services this app needs, read by the platform when a project is created
+# from this repository.
+backing:
+  - name: postgres
+    type: postgres
+connections:
+  - to: postgres
+    as: DATABASE_URL
